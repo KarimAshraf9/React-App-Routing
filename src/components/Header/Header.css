@@ -1,0 +1,40 @@
+.specialBorder::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: rgb(44,62,80);
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translateY(-50%);
+  }
+  
+  .specialBorder::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: rgb(44,62,80);
+    position: absolute;
+    top: 50%;
+    right: 52%;
+    transform: translateY(-50%);
+  }
+  
+  .secondary::after,.secondary::before{
+    background-color: white;
+  }
+
+  .sectionHeader i{
+    color: rgb(44,62,80);
+}
+
+
+@media screen and (max-width: 992px) {
+  .specialBorder::after {
+    left: 55%;
+  }
+
+  .specialBorder::before {
+    right: 55%;
+  }
+}

@@ -1,0 +1,47 @@
+#navBar{
+    background-color: rgb(44,62,80);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#navBar a{
+    color: white;
+    font-weight: 700;
+}
+
+#navBar ul li a{
+    padding: 16px;
+}
+
+#navBar .navbar-brand{
+    font-size: 25.6px;
+    letter-spacing: 2px;
+}
+
+#navBar ul li{
+    margin: 24px 25px;
+
+}
+
+/* #navBar ul li.special{
+    background-color: rgb(26,188,156);
+} */
+
+/* #navBar ul li:hover{
+    a{
+        color:rgb(79, 204, 179)
+    }
+} */
+
+#navBar .navbar-toggler{
+    background-color: rgb(26,188,156);
+    border: none;
+    --bs-navbar-color:white;
+}
+
+#navBar .active{
+    background-color: rgb(26,188,156);
+    border-radius: 8px;
+    cursor: pointer;
+}
