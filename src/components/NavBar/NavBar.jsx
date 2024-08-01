@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './NavBar.css'
 
 export default function NavBar() {
@@ -7,7 +7,7 @@ export default function NavBar() {
     <>
         <nav className="navbar navbar-expand-lg" id="navBar">
             <div className="container">
-                <a className="navbar-brand" href="#">START REACT</a>
+                <Link to='' className="navbar-brand">START REACT</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 Menu<span className="navbar-toggler-icon navbar-dark"></span>
                 </button>
