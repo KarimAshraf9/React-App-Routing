@@ -6,7 +6,6 @@ import { useState } from "react";
 import Detail from "../Detail/Detail";
 
 export default function Portfolio() {
-
   const [showDetailsDialog, setShowDetailsDialog] = useState(false);
   const [dialogData, setDialogData] = useState({});
 
@@ -34,6 +33,7 @@ export default function Portfolio() {
           <div className="row gx-5 gy-5">
             {data.map((card) => (
               <Card
+                key={card.title}
                 image={card.image}
                 onClickHandler={() => onClickHandler(card.title, card.image)}
               />

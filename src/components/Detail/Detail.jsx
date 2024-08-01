@@ -7,7 +7,6 @@ export default function Detail({
   setShowDetailsDialog,
   setDialogData,
 }) {
-  console.log("🚀 ~ setDialogData:", setDialogData)
   if (!showDetailsDialog) {
     return null;
   }

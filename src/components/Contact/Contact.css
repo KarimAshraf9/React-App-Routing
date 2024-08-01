@@ -1,44 +1,42 @@
-#contact{
-    padding: 24px 0;
-    margin-top: 120px;
+#contact {
+  padding: 24px 0;
+  margin-top: 120px;
 }
 
-#contact h1{
-    font-size: 48px;
-} 
-
-
-#contact input,#contact textarea{
-    color: rgb(44,62,80);
-    font-weight: 500;
-    font-size: 20.8px;
-    border: none;
-}
-#contact input,#contact textarea:focus{
-    box-shadow: none;
+#contact h1 {
+  font-size: 48px;
 }
 
-#contact ::placeholder{
-    color: rgba(33, 37, 41, 0.5);
-    font-weight: 500;
-    font-size: 20.8px;
+#contact input,
+#contact textarea {
+  color: rgb(44, 62, 80);
+  font-weight: 500;
+  font-size: 20.8px;
+  border: none;
+}
+#contact input,
+#contact textarea:focus {
+  box-shadow: none;
 }
 
-
-#contact button{
-    background-color: rgb(24, 176, 147);
-    border-style: none;
-    padding: 10px 20px;
+#contact ::placeholder {
+  color: rgba(33, 37, 41, 0.5);
+  font-weight: 500;
+  font-size: 20.8px;
 }
 
-
-#contact button:hover{
-    background-color: rgb(25, 182, 151);
+#contact button {
+  background-color: rgb(24, 176, 147);
+  border-style: none;
+  padding: 10px 20px;
 }
 
+#contact button:hover {
+  background-color: rgb(25, 182, 151);
+}
 
 @media screen and (max-width: 991px) {
-    #contact {
-        margin-top: 64.391px;
-    }
+  #contact {
+    margin-top: 64.391px;
+  }
 }

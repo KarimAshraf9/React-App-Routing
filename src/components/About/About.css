@@ -1,19 +1,18 @@
-#about{
-    background-color: rgb(26,188,156);
+#about {
+  background-color: rgb(26, 188, 156);
 }
 
-#about{
-    padding: 24px 0;
-    margin-top: 120px;
+#about {
+  padding: 24px 0;
+  margin-top: 120px;
 }
 
-#about h1{
-    font-size: 48px;
-} 
-
+#about h1 {
+  font-size: 48px;
+}
 
 @media screen and (max-width: 991px) {
-    #about {
-        margin-top: 64.391px;
-    }
+  #about {
+    margin-top: 64.391px;
+  }
 }
