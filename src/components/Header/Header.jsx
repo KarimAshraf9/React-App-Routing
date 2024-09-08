@@ -16,7 +16,9 @@ export default function Header({ title, secondary }) {
           }`}
         >
           <i
-            className={`fa-solid fa-star fa-2x ${secondary ? "text-white" : "" }`}
+            className={`fa-solid fa-star fa-2x ${
+              secondary ? "text-white" : ""
+            }`}
           ></i>
         </div>
       </div>
